@@ -47,3 +47,20 @@ export const Button = styled(Link)`
   border: 1px solid #58355e;
   text-align: center;
 `
+
+export const RepContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`
+export const CallContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: underline dotted #a3bac3;
+`
+export const ScriptContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`
