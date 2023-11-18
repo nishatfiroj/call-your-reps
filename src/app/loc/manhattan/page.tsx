@@ -68,25 +68,23 @@ export default function Manhattan() {
       <br />
 
       <Header>senator Gillibrand</Header>
-      <div style={{ display: "flex", flexDirection: "row" }}>
-        <div style={{ display: "flex", flexDirection: "column" }}>
+      <RepContainer>
+        <CallContainer>
           <Prompt>call:</Prompt>
+          <Button href="tel:2022244451">
+            call, put speaker phone on, and navigate back here
+          </Button>
+        </CallContainer>
+        <ScriptContainer>
           <Prompt>script:</Prompt>
-        </div>
-        <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <Button href="tel:2022244451">
-              call, put speaker phone on, and navigate back here
-            </Button>
-            <Body>
-              hi, my name is <b>[NAME]</b> and im a constituent from Manhattan.
-              im calling to urge senator Gillibrand to support an immediate
-              de-escalation and CEASEFIRE in israel and palestine. enough
-              innocent lives have already been lost.
-            </Body>
-          </div>
-        </div>
-      </div>
+          <Body>
+            hi, my name is <b>[NAME]</b> and im a constituent from Manhattan. im
+            calling to urge senator Gillibrand to support an immediate
+            de-escalation and CEASEFIRE in israel and palestine. enough innocent
+            lives have already been lost.
+          </Body>
+        </ScriptContainer>
+      </RepContainer>
     </Main>
   )
 }
