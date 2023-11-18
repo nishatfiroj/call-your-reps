@@ -39,11 +39,10 @@ export default function Manhattan() {
             call, put speaker phone on, and navigate back here
           </Button>
           <Body>
-            hi, my name is <b>[NAME]</b> and I'm a constituent from Manhattan.
-            I'm calling to urge representative Nadler to support house
-            resolution 786, which calls for an immediate de-escalation and
-            CEASEFIRE in israel and palestine. enough innocent lives have
-            already been lost.
+            hi, my name is <b>[NAME]</b> and im a constituent from Manhattan. im
+            calling to urge representative Nadler to support house resolution
+            786, which calls for an immediate de-escalation and CEASEFIRE in
+            israel and palestine. enough innocent lives have already been lost.
           </Body>
         </div>
       </div>
@@ -63,8 +62,8 @@ export default function Manhattan() {
               call, put speaker phone on, and navigate back here
             </Button>
             <Body>
-              hi, my name is <b>[NAME]</b> and I'm a constituent from Manhattan.
-              I'm calling to urge senator Schumer to support an immediate
+              hi, my name is <b>[NAME]</b> and im a constituent from Manhattan.
+              im calling to urge senator Schumer to support an immediate
               de-escalation and CEASEFIRE in israel and palestine. enough
               innocent lives have already been lost.
             </Body>
@@ -87,8 +86,8 @@ export default function Manhattan() {
               call, put speaker phone on, and navigate back here
             </Button>
             <Body>
-              hi, my name is <b>[NAME]</b> and I'm a constituent from Manhattan.
-              I'm calling to urge senator Gillibrand to support an immediate
+              hi, my name is <b>[NAME]</b> and im a constituent from Manhattan.
+              im calling to urge senator Gillibrand to support an immediate
               de-escalation and CEASEFIRE in israel and palestine. enough
               innocent lives have already been lost.
             </Body>

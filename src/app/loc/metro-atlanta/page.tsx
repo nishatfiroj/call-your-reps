@@ -39,11 +39,11 @@ export default function MetroAtlanta() {
             call, put speaker phone on, and navigate back here
           </Button>
           <Body>
-            hi, my name is <b>[NAME]</b> and I'm a constituent from{" "}
-            <b>[CITY]</b>, georgia. I'm calling to urge representative McCormick
-            to support house resolution 786, which calls for an immediate
-            de-escalation and CEASEFIRE in israel and palestine. enough innocent
-            lives have already been lost.
+            hi, my name is <b>[NAME]</b> and im a constituent from <b>[CITY]</b>
+            , georgia. im calling to urge representative McCormick to support
+            house resolution 786, which calls for an immediate de-escalation and
+            CEASEFIRE in israel and palestine. enough innocent lives have
+            already been lost.
           </Body>
         </div>
       </div>
@@ -64,8 +64,8 @@ export default function MetroAtlanta() {
               then press 2, and navigate back here
             </Button>
             <Body>
-              hi, my name is <b>[NAME]</b> and I'm a constituent from{" "}
-              <b>[CITY]</b>, georgia. I'm calling to urge senator Ossoff to
+              hi, my name is <b>[NAME]</b> and im a constituent from{" "}
+              <b>[CITY]</b>, georgia. im calling to urge senator Ossoff to
               support an immediate de-escalation and CEASEFIRE in israel and
               palestine. enough innocent lives have already been lost.
             </Body>
@@ -88,8 +88,8 @@ export default function MetroAtlanta() {
               call, put speaker phone on, and navigate back here
             </Button>
             <Body>
-              hi, my name is <b>[NAME]</b> and I'm a constituent from{" "}
-              <b>[CITY]</b>, georgia. I'm calling to urge senator Warnock to
+              hi, my name is <b>[NAME]</b> and im a constituent from{" "}
+              <b>[CITY]</b>, georgia. im calling to urge senator Warnock to
               support an immediate de-escalation and CEASEFIRE in israel and
               palestine. enough innocent lives have already been lost.
             </Body>
