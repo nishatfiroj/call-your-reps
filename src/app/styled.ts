@@ -29,12 +29,6 @@ export const Prompt = styled.h3`
   text-align: center;
 `
 
-export const Body = styled.p`
-  padding: 1rem;
-  line-height: 1.5rem;
-  text-align: center;
-`
-
 export const GoBackHome = styled(Link)`
   color: #006989;
   text-decoration: underline dotted #a3bac3;

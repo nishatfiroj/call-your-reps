@@ -1,9 +1,9 @@
 "use client"
+import { Body } from "@/app/components"
 import {
   Main,
   Prompt,
   Header,
-  Body,
   TheBigHeader,
   Button,
   GoBackHome,
@@ -20,7 +20,7 @@ export default function MetroAtlanta() {
       <br />
 
       <TheBigHeader>☆ metro atlanta ☆</TheBigHeader>
-      <Body>just click the button and read the script, ez pz</Body>
+      <p>just click the button and read the script, ez pz</p>
 
       <br />
 
@@ -34,13 +34,7 @@ export default function MetroAtlanta() {
         </CallContainer>
         <ScriptContainer>
           <Prompt>script:</Prompt>
-          <Body>
-            hi, my name is <b>[NAME]</b> and im a constituent from <b>[CITY]</b>
-            , georgia. im calling to urge representative McCormick to support
-            house resolution 786, which calls for an immediate de-escalation and
-            CEASEFIRE in israel and palestine. enough innocent lives have
-            already been lost.
-          </Body>
+          <Body rep="McCormick" loc="[CITY], georgia" />
         </ScriptContainer>
       </RepContainer>
 
@@ -58,12 +52,7 @@ export default function MetroAtlanta() {
         </CallContainer>
         <ScriptContainer>
           <Prompt>script:</Prompt>
-          <Body>
-            hi, my name is <b>[NAME]</b> and im a constituent from <b>[CITY]</b>
-            , georgia. im calling to urge senator Ossoff to support an immediate
-            de-escalation and CEASEFIRE in israel and palestine. enough innocent
-            lives have already been lost.
-          </Body>
+          <Body rep="Ossoff" loc="[CITY], georgia" senator />
         </ScriptContainer>
       </RepContainer>
 
@@ -80,12 +69,7 @@ export default function MetroAtlanta() {
         </CallContainer>
         <ScriptContainer>
           <Prompt>script:</Prompt>
-          <Body>
-            hi, my name is <b>[NAME]</b> and im a constituent from <b>[CITY]</b>
-            , georgia. im calling to urge senator Warnock to support an
-            immediate de-escalation and CEASEFIRE in israel and palestine.
-            enough innocent lives have already been lost.
-          </Body>
+          <Body rep="Warnock" loc="[CITY], georgia" senator />
         </ScriptContainer>
       </RepContainer>
     </Main>

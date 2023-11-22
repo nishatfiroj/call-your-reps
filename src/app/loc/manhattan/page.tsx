@@ -1,9 +1,9 @@
 "use client"
+import { Body } from "@/app/components"
 import {
   Main,
   Prompt,
   Header,
-  Body,
   TheBigHeader,
   Button,
   GoBackHome,
@@ -20,7 +20,7 @@ export default function Manhattan() {
       <br />
 
       <TheBigHeader>♧ manhattan ♧</TheBigHeader>
-      <Body>just click the button and read the script, ez pz</Body>
+      <p>just click the button and read the script, ez pz</p>
 
       <br />
 
@@ -36,12 +36,7 @@ export default function Manhattan() {
 
         <ScriptContainer>
           <Prompt>script:</Prompt>
-          <Body>
-            hi, my name is <b>[NAME]</b> and im a constituent from Manhattan. im
-            calling to urge representative Nadler to support house resolution
-            786, which calls for an immediate de-escalation and CEASEFIRE in
-            israel and palestine. enough innocent lives have already been lost.
-          </Body>
+          <Body rep="Nadler" loc="Manhattan, New York" />
         </ScriptContainer>
       </RepContainer>
       <br />
@@ -56,12 +51,7 @@ export default function Manhattan() {
       </CallContainer>
       <ScriptContainer>
         <Prompt>script:</Prompt>
-        <Body>
-          hi, my name is <b>[NAME]</b> and im a constituent from Manhattan. im
-          calling to urge senator Schumer to support an immediate de-escalation
-          and CEASEFIRE in israel and palestine. enough innocent lives have
-          already been lost.
-        </Body>
+        <Body rep="Schumer" loc="[BOROUGH], New York" senator />
       </ScriptContainer>
 
       <br />
@@ -77,12 +67,7 @@ export default function Manhattan() {
         </CallContainer>
         <ScriptContainer>
           <Prompt>script:</Prompt>
-          <Body>
-            hi, my name is <b>[NAME]</b> and im a constituent from Manhattan. im
-            calling to urge senator Gillibrand to support an immediate
-            de-escalation and CEASEFIRE in israel and palestine. enough innocent
-            lives have already been lost.
-          </Body>
+          <Body rep="Gillibrand" loc="[BOROUGH], New York" senator />
         </ScriptContainer>
       </RepContainer>
     </Main>
