@@ -22,9 +22,12 @@ export function Body({
       email address is <b>[EMAIL]</b>. im calling to urge{" "}
       {senator ? "senator" : "representative"} {rep} to{" "}
       {senator
-        ? "support an immediate and permanent de-escalation and ceasefire in israel and palestine"
-        : "support house resolution 786, which calls for an immediate and permanent de-escalation and ceasefire in israel and palestine"}
-      . enough innocent lives have already been lost.
+        ? "support an immediate and permanent ceasefire in israel and palestine"
+        : "support house resolution 786, which calls for an immediate and permanent ceasefire in israel and palestine"}
+      . i will not vote for {senator ? "senator" : "representative"} {rep} in
+      the next election and will mobilize other voters to do the same if
+      [HE/SHE/THEY] continue to be complicit in genocide against civilians in
+      Gaza. thank you for listening.
     </BodyContainer>
   )
 }
