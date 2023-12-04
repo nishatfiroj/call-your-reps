@@ -1,5 +1,5 @@
 "use client"
-import { Main, Button, Prompt } from "./styled"
+import { Main, Button, Prompt, MenaceButton } from "./styled"
 
 export default function Home() {
   return (
@@ -8,8 +8,10 @@ export default function Home() {
         hi hi - if you want to learn how to do calls with as little anxiety as
         possible, click the button that represents your home
       </Prompt>
+
       <Button href="/loc/metro-atlanta">metro atlanta</Button>
       <Button href="/loc/manhattan">manhattan</Button>
+      <MenaceButton href="/menace">ʍҽղąçҽ ʍօժҽ ƒօɾ ցҽօɾցìą ѵօէҽɾʂ</MenaceButton>
     </Main>
   )
 }
