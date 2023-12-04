@@ -30,8 +30,8 @@ export default function Menace() {
         then fax your representatives! i made this easy for u too
       </h4>
       <ScriptContainer style={{ textAlign: "center" }}>
-        stop killing people with our tax money and we'll stop wasting ur printer
-        paper lol
+        stop killing people with our tax money and we will stop wasting ur
+        printer paper lol
       </ScriptContainer>
 
       <br />
@@ -74,7 +74,7 @@ export default function Menace() {
       </Button>
 
       <Prompt>
-        please note that u gotta go to ur email to confirm the fax. it's
+        please note that u gotta go to ur email to confirm the fax. it is
         annoying but u know what else is annoying? 💖 genocide brother, genocide
         💖
       </Prompt>
