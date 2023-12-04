@@ -37,11 +37,15 @@ export default function Menace() {
       <br />
       <br />
 
+      <Input ref={name} placeholder="type name here" autoFocus></Input>
+
+      <br />
+      <br />
+
       <Header>senator Ossoff</Header>
       <p>PS be really annoying and do it five times lolol</p>
-      <Input ref={name} placeholder="type name here" autoFocus></Input>
       <CopyButton onClick={() => onCopyScript("Ossoff")}>
-        copy the script here
+        click this button to copy the script
       </CopyButton>
       <Button
         href="https://faxzero.com/fax_senate/O000174"
@@ -57,9 +61,8 @@ export default function Menace() {
 
       <Header>senator Warnock</Header>
       <p>PS be really annoying and do it five times lolol</p>
-      <Input ref={name} placeholder="type name here" autoFocus></Input>
       <CopyButton onClick={() => onCopyScript("Warnock")}>
-        copy the script here
+        click this button to copy the script
       </CopyButton>
       <Button
         href="https://faxzero.com/fax_senate/W000790"
@@ -69,6 +72,12 @@ export default function Menace() {
         paste in this link, fill in ur name, email, and number, AND SEND THAT MF
         FAX LMAO
       </Button>
+
+      <Prompt>
+        please note that u gotta go to ur email to confirm the fax. it's
+        annoying but u know what else is annoying? 💖 genocide brother, genocide
+        💖
+      </Prompt>
     </Main>
   )
 }
