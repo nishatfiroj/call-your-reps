@@ -13,6 +13,7 @@ export default function Home() {
 
         <Button href="/loc/metro-atlanta">metro atlanta</Button>
         <Button href="/loc/manhattan">manhattan</Button>
+        <Button href="/loc/seattle">seattle</Button>
         <MenaceButton href="/menace">
           ʍҽղąçҽ ʍօժҽ ƒօɾ ցҽօɾցìą ѵօէҽɾʂ
         </MenaceButton>
