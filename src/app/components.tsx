@@ -23,7 +23,11 @@ export function Body({
       {senator ? "senator" : "representative"} {rep} to{" "}
       {senator
         ? "support an immediate and permanent ceasefire in israel and palestine"
-        : "support house resolution 786, which calls for an immediate and permanent ceasefire in israel and palestine"}
+        : `vote no on house resolution 894.  it equates antisemitism with anti Zionism, 
+        which is factually incorrect, racist, discriminatory, and silences the right of 
+        free speech for people advocating for an end to the genocide and killing in Gaza. 
+        as our representatives, you have a responsibility to protect our freedom of speech 
+        and truly represent the opinions of your constituents, so vote no on the resolution.`}
       . i will not vote for {senator ? "senator" : "representative"} {rep} in
       the next election and will mobilize other voters to do the same if
       [HE/SHE/THEY] continue to be complicit in genocide against civilians in
