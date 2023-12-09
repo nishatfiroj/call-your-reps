@@ -92,19 +92,16 @@ export const MenaceButton = styled(Link)`
 
 export const RepContainer = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 `
 export const CallContainer = styled.div`
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   text-decoration: underline dotted #a3bac3;
 `
 export const ScriptContainer = styled.div`
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
 `
 
 export const Input = styled.input`
