@@ -18,7 +18,7 @@ export function CallPage({
   sen2,
   sen2Number,
 }: {
-  city: string
+  city: "Atlanta" | "Seattle" | "Manhattan"
   rep: string
   repNumber: string
   sen1: string
@@ -26,13 +26,25 @@ export function CallPage({
   sen2: string
   sen2Number: string
 }) {
+  let loc
+  switch (city) {
+    case "Atlanta":
+      loc = "Georgia"
+    case "Manhattan":
+      loc = "New York"
+    case "Seattle":
+      loc = "Washington"
+    default:
+      break
+  }
+
   return (
     <Main>
       <GoBackHome href="../">go back to da main page</GoBackHome>
 
       <br />
 
-      <TheBigHeader>♧ manhattan ♧</TheBigHeader>
+      <TheBigHeader>♧ {city} ♧</TheBigHeader>
       <p>just click the button and read the script, ez pz</p>
 
       <br />
@@ -41,7 +53,7 @@ export function CallPage({
       <RepContainer>
         <ScriptContainer>
           <Call telephone={repNumber} />
-          <Script rep={rep} loc={`${city}`} />
+          <Script rep={rep} loc={loc} />
         </ScriptContainer>
       </RepContainer>
       <br />
@@ -50,7 +62,7 @@ export function CallPage({
       <Header>senator {sen1}</Header>
       <ScriptContainer>
         <Call telephone={sen1Number} />
-        <Script rep={sen1} loc={`${city}`} senator />
+        <Script rep={sen1} loc={loc} senator />
       </ScriptContainer>
 
       <br />
@@ -60,7 +72,7 @@ export function CallPage({
       <RepContainer>
         <ScriptContainer>
           <Call telephone={sen2Number} />
-          <Script rep={sen2} loc={`${city}`} senator />
+          <Script rep={sen2} loc={loc} senator />
         </ScriptContainer>
       </RepContainer>
     </Main>

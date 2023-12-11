@@ -5,7 +5,7 @@ import { CallPage } from "@/components/CallPage"
 export default function Manhattan() {
   return (
     <CallPage
-      city="manhattan"
+      city="Manhattan"
       rep="Nadler"
       repNumber="2123677350"
       sen1="Schumer"
