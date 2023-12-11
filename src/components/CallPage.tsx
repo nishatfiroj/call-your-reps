@@ -27,15 +27,12 @@ export function CallPage({
   sen2Number: string
 }) {
   let loc
-  switch (city) {
-    case "Atlanta":
-      loc = "Georgia"
-    case "Manhattan":
-      loc = "New York"
-    case "Seattle":
-      loc = "Washington"
-    default:
-      break
+  if (city === "Atlanta") {
+    loc = "Georgia"
+  } else if (city === "Manhattan") {
+    loc = "New York"
+  } else {
+    loc = "Washington"
   }
 
   return (

@@ -17,7 +17,7 @@ export function Script({
   rep,
   senator = false,
 }: {
-  loc: string | undefined
+  loc: string
   rep: string
   senator?: boolean
 }) {
