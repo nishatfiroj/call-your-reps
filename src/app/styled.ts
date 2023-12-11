@@ -94,11 +94,7 @@ export const RepContainer = styled.div`
   display: flex;
   justify-content: space-around;
 `
-export const CallContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-decoration: underline dotted #a3bac3;
-`
+
 export const ScriptContainer = styled.div`
   display: flex;
   flex-direction: column;

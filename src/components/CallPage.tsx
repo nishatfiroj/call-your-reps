@@ -4,8 +4,6 @@ import {
   TheBigHeader,
   Header,
   RepContainer,
-  CallContainer,
-  Prompt,
   ScriptContainer,
 } from "@/app/styled"
 
@@ -43,7 +41,7 @@ export function CallPage({
       <RepContainer>
         <ScriptContainer>
           <Call telephone={repNumber} />
-          <Script rep={rep} loc={`${city}, New York`} />
+          <Script rep={rep} loc={`${city}`} />
         </ScriptContainer>
       </RepContainer>
       <br />
@@ -52,7 +50,7 @@ export function CallPage({
       <Header>senator {sen1}</Header>
       <ScriptContainer>
         <Call telephone={sen1Number} />
-        <Script rep={sen1} loc={`${city}, New York`} senator />
+        <Script rep={sen1} loc={`${city}`} senator />
       </ScriptContainer>
 
       <br />
@@ -62,7 +60,7 @@ export function CallPage({
       <RepContainer>
         <ScriptContainer>
           <Call telephone={sen2Number} />
-          <Script rep={sen2} loc={`${city}, New York`} senator />
+          <Script rep={sen2} loc={`${city}`} senator />
         </ScriptContainer>
       </RepContainer>
     </Main>
