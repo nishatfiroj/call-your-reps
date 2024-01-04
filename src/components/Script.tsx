@@ -24,12 +24,13 @@ export function Script({
   return (
     <ScriptContainer>
       hi, my name is <b>[NAME]</b> and im a constituent from{" "}
-      <b>[CITY], {loc}</b>. my email address is <b>[EMAIL]</b>. im calling to
-      urge {senator ? "senator" : "representative"} {rep} to call for{" "}
-      <Number>(1)</Number> a total and permanent ceasefire, <Number>(2)</Number>{" "}
-      humanitarian aid allowed to enter gaza, <Number>(3)</Number> an end to
-      israel&apos;s siege on gaza, and <Number>(4)</Number> no more weapons or
-      funding to the israeli military. thank you for listening.
+      <b>[CITY], {loc}</b>. im calling to urge{" "}
+      {senator ? "senator" : "representative"} {rep} to call for{" "}
+      <Number>(1)</Number> a total and permanent ceasefire in gaza where over
+      30,000 palestinians have been murdered by Israel in under 90 days,{" "}
+      <Number>(2)</Number> humanitarian aid to enter gaza, and{" "}
+      <Number>(3)</Number> no more weapons or funding to the israeli military.
+      thank you.
     </ScriptContainer>
   )
 }
