@@ -46,16 +46,6 @@ export function CallPage({
 
       <br />
 
-      <Header>representative {rep}</Header>
-      <RepContainer>
-        <ScriptContainer>
-          <Call telephone={repNumber} />
-          <Script rep={rep} loc={loc} />
-        </ScriptContainer>
-      </RepContainer>
-      <br />
-      <br />
-
       <Header>senator {sen1}</Header>
       <ScriptContainer>
         <Call telephone={sen1Number} />
@@ -72,6 +62,19 @@ export function CallPage({
           <Script rep={sen2} loc={loc} senator />
         </ScriptContainer>
       </RepContainer>
+
+      <br />
+      <br />
+
+      <Header>representative {rep}</Header>
+      <RepContainer>
+        <ScriptContainer>
+          <Call telephone={repNumber} />
+          <Script rep={rep} loc={loc} />
+        </ScriptContainer>
+      </RepContainer>
+      <br />
+      <br />
     </Main>
   )
 }
