@@ -23,18 +23,7 @@ export function Script({
   senator?: boolean
 }) {
   const daysSince = getDaysSince()
-  return senator ? (
-    <ScriptContainer>
-      My name is ____ in ZIP code _____. I urge Senator {rep} to VOTE NO on the
-      1.2 trillion dollar spending package that the House just passed! This
-      package includes extending the ban on UNRWA funding. Banning aid to UNRWA
-      is an active choice that will kill Palestinians who need that aid to
-      survive. Starvation is a form of collective punishment. I&apos;m furious
-      that my government is banning aid with zero investigation while denying
-      the vast evidence presented in court that Israel is committing genocide.
-      Senator {rep} MUST VOTE NO.
-    </ScriptContainer>
-  ) : (
+  return (
     <ScriptContainer>
       hi, my name is <b>[NAME]</b> and im a constituent from{" "}
       <b>[CITY], {loc}</b>. im calling to urge{" "}
